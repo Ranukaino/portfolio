@@ -13,11 +13,11 @@ export class App {
   public button1 = "kkk";
   public button2 = "kkk2";
 
-  public acao1 = ()=>{
-    window.alert("button1 foi clicado")
+  public acao1() {
+    window.alert("Botao1 clicado")
   }
 
-  public acao2 = ()=>{
-    window.alert("button2 foi clicado")
+  public acao2() {
+    window.alert("Botao2 clicado")
   }
 }
